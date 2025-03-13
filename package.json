@@ -1,0 +1,26 @@
+{
+  "name": "@iebh/pinia-tera-json",
+  "version": "1.0.0",
+  "description": "A plugin for Pinia to allow saving/loading JSON files with TERA",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "pinia",
+    "tera",
+    "sync",
+    "plugin",
+    "typescript"
+  ],
+  "author": "Connor Forbes",
+  "license": "ISC",
+  "devDependencies": {
+    "pinia": "^3.0.1",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "nanoid": "^5.1.3"
+  }
+}
